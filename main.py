@@ -6,7 +6,6 @@ from ntm import NTM
 from util_functions import get_data_split, get_acc, setup_seed, use_cuda
 from util_functions import load_data_set, symmetric_normalize_adj, min_max_normalize, Z_score
 from util_functions import ContrastiveDataset, calculate_accuracy_train, calculate_accuracy_test
-from lazy_random_walk_utils import get_lrw_pre_calculated_feature_list
 from torch.utils.data import DataLoader, Dataset
 
 
